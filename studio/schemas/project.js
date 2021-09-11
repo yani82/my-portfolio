@@ -13,7 +13,7 @@ export default {
         },
         {
             name: "place",
-            type: "string"
+            type: "string",
         },
         {
             name: "description",
@@ -25,9 +25,9 @@ export default {
             type: "string", 
             options: {
                 list: [
-                    { value: "personal, title: "Personal"},
-                    { value: "personal, title: "Client"},
-                    { value: "personal, title: "School"},
+                    { value: "personal", title: "Personal"},
+                    { value: "personal", title: "Client"},
+                    { value: "personal", title: "School"},
                 ],
             },
         },
